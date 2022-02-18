@@ -120,7 +120,7 @@ section{
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 1.5em;
+    font-size: 4em;
     font-weight: 800;
 }
 
@@ -246,11 +246,13 @@ ul.rb li .timestamp {
 }
 
 .projects_image img {
-    width: 100%;
+    height: 10em;
+    width: 23em;
 }
 
 .project_info{
     padding: 1em;
+
 }
 
 .category{
@@ -278,12 +280,31 @@ ul.rb li .timestamp {
 }
 
 
-
-
-.projects_cards{
-    padding-bottom: 10px;
+.projects_cards_comp{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #232931;
+    min-height: 14em;
     width: 17em;
+    padding-bottom: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 1s ease;
 }
+.projects_cards:hover{
+    transform: scale(1.1);
+}
+
+.projects_cards_comp:hover{
+    transform: scale(1.5);
+}
+
+.projects_cards_comp .projects_image img {
+    width: 100%;
+}
+
+
 .competences .content .projects_cards{
     background-color: #fff;
 }
@@ -299,10 +320,14 @@ ul.rb li .timestamp {
     font-size: 1.3em;
 }
 
-
+.contact{
+    justify-content: center;
+}
 
 .email{
     font-size: 3em;
+    display: flex;
+    justify-content: center;
 }
 
 .footer{
