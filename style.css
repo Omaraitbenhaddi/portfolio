@@ -10,7 +10,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
 }
 
 header{
@@ -109,6 +108,7 @@ section{
     font-size: 1.7em;
     padding-right: 60px;
 }
+
 
 
 
@@ -335,4 +335,34 @@ ul.rb li .timestamp {
     display: flex;
     justify-content: center;
     padding: 10vh;
+}
+
+
+@media (max-width:900px){
+    *{
+        overflow: auto;
+    }
+    
+
+    header{
+        padding: 12px 20px;
+        font-size: 1em;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .forma_title{
+        font-size: 1.8em;
+    }
+    .project_title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }
