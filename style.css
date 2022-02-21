@@ -518,9 +518,19 @@ ul.rb li .timestamp {
     
 }
 
-@media (max-width:350px){
+@media (max-width:500px){
     .footer{
         font-size: 0.6em;
+    }
+    .projects_cards_comp{
+        width: 5em;
+        margin: 10px;
+    }
+    .competences .content .projects_image img {
+        height: 3em;
+    }
+    .nom_com{
+        font-size: 0.5em;
     }
 }
 @media (max-width:270px){
