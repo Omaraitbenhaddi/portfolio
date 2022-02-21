@@ -338,7 +338,7 @@ ul.rb li .timestamp {
 }
 
 
-@media (max-width:900px){
+@media (max-width:1024px){
     *{
         overflow: auto;
     }
@@ -346,22 +346,25 @@ ul.rb li .timestamp {
 
     header{
         padding: 12px 20px;
-        font-size: 0.5em;
+        font-size: 1em;
     }
     .navigation a{
         padding-left: 10px;
+    }
+    .main h2  span{
+        font-size: 1.5em;
     }
     .forma_title{
         font-size: 1.8em;
     }
     .project_title{
-        font-size: 1.8em;
+        font-size: 1em;
     }
     section{
         padding: 80px 20px;
     }
     .content{
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
     .rb-container ul.rb {
@@ -377,9 +380,21 @@ ul.rb li .timestamp {
           width: 0px;
       }
 
+      .rb-container ul.rb li {
+        border-left: 0px dashed #fff;
 
+      }
+      .projects_cards_comp{
+          width: 10em;
+          min-height: 3em;
+      }
+      .competences .content .projects_image img {
+        height: 8em;
+    }
 
-
+    .projects_cards_comp:hover{
+        transform: scale(1.1);
+    }
 
 
 
