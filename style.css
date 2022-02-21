@@ -384,6 +384,17 @@ ul.rb li .timestamp {
         border-left: 0px dashed #fff;
 
       }
+      .projects_cards{
+          width: 20em;
+      }
+      .projects_image img {
+        height: 10em;
+        width: 20em;
+    }
+
+
+
+
       .projects_cards_comp{
           width: 10em;
           min-height: 3em;
@@ -403,4 +414,117 @@ ul.rb li .timestamp {
         font-size: 1em;
     }
     
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:700px){
+    *{
+        overflow: auto;
+    }
+
+
+    header{
+        padding: 8px 10px;
+        font-size: 0.55em;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .main h2  span{
+        font-size: 0.8em;
+    }
+    .main h3{
+        font-size: 1em ;
+    }
+    .social-icons a{
+        font-size: 1.4em;
+    }
+    .forma_title{
+        font-size: 1.8em;
+    }
+    .container{
+        width: 430;
+    }
+    .category{
+        font-size: 0.7em;
+    }
+    .project_title{
+        font-size: 0.8em;
+    }
+    section{
+        padding: 80px 10px;
+    }
+    .content{
+        flex-direction: row;
+        align-items: center;
+    }
+    .rb-container{
+        width: 60%;
+    }
+    .rb-container ul.rb {
+        margin: 1em 0;
+      }
+      .rb-container ul.rb li{
+          margin-left: 0.3em;
+          padding: 0 0 25px 0px;
+          font-size: 0.8em;
+      }
+      .rb-container ul.rb li::before {
+        border: 0px ;
+          height: 0px;
+          width: 0px;
+      }
+
+      .rb-container ul.rb li {
+        border-left: 0px dashed #fff;
+
+      }
+      .projects_cards{
+          width: 20em;
+      }
+      .projects_image img {
+        height: 10em;
+        width: 20em;
+    }
+
+
+
+
+      .projects_cards_comp{
+          width: 10em;
+          min-height: 3em;
+      }
+      .competences .content .projects_image img {
+        height: 8em;
+    }
+
+    .projects_cards_comp:hover{
+        transform: scale(1.1);
+    }
+
+
+
+
+      .email{
+        font-size: 0.7em;
+    }
+    
+}
+
+@media (max-width:350px){
+    .footer{
+        font-size: 0.6em;
+    }
+}
+@media (max-width:270px){
+    .footer{
+        font-size: 0.4em;
+    }
 }
